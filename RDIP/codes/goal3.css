@@ -5,10 +5,11 @@
 	font-size: x-large;
 	margin-left: 85px;
 }
-#rm{
-	color: black;
+#rm,#gs{
+	color: blue;
 	text-align: center;
 	display: block;
+	font-weight: bold;
 }
 #rm1{
 	color: red;
@@ -17,5 +18,21 @@
 }
 button{
 	margin-left: 110px;
-	align:center;
+	align :center;
 }
+#rm2{
+	display: block;
+	font-size: x-large;
+	font-weight: bold;
+	color:black;
+	font-family: "Arial", Helvetica;
+}
+#gf{
+	display: block;
+	text-align: center;
+}
+
+
+
+
+

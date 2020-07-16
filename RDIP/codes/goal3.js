@@ -5,52 +5,73 @@ function display(p) {
 	if(p == "eng"){
 		document.getElementById("rm").innerHTML = "Form a sentence (Declarative or Interrogative or any other type) from the given words"+"<br>"
 		document.getElementById("rm1").innerHTML ="<i>(select the buttons in proper order)</i>"
-		es();
+		es1()
 	}
 	else if(p == "hin"){
 		document.getElementById("rm").innerHTML = "Form a sentence (Declarative or Interrogative or any other type) from the given words"+"<br>"
 		document.getElementById("rm1").innerHTML ="<i>(select the buttons in proper order)</i>"
-		hs();
+		hs1()
 	}
 	else{
 		alert("Select language");
 	}
 }
-function ns1() {
+function es1() {
 	
 	var p = Math.floor(Math.random()*n1.length);
-	var q =e1[p];
+	var q =n1[p];
 	var r = s(q);
 	button(r);
 }
 
-function is1() {
+function hs1() {
 	
 	var p = Math.floor(Math.random()*i1.length);
-	var q = h1[p];
+	var q = i1[p];
 	var r = s(q);
 	button(r);
 }
 function s(n) {
 	
-	var pa = n.split(' ');                      
-  for(var j=0 ; j<=pa.length-1 ; ++j) {
-    var k = Math.floor(Math.random()*pa.length);      
-    var temp = pa[j];            
-    pa[j] = pa[k];
-    pa[k] = temp;
+	var np = n.split(' ');                      
+  for(var j=0 ; j<=np.length-1 ; ++j) {
+    var k = Math.floor(Math.random()*np.length);      
+    var temp = np[j];            
+    np[j] = np[k];
+    np[k] = temp;
   }
-  string = pa.join(' ');                
+  string = np.join(' ');                
   return string;                        
 }
-function button(e) {
-	
-	var pa = e.split(" ")
-	for( var j = 0; j <= pa.length-1; j++) {
+function button(n) {
+
+	    document.getElementById("rs").innerHTML = " "
+	    var np = n.split(" ")
+	    for( var j = 0; j <= np.length-1; j++) {
     var button = document.createElement("button");
-     button.innerHTML = pa[j];
-     var r = document.getElementById("rs");
-     r.appendChild(button);
+     button.innerHTML = np[j];
+     button.className += "ps"
+     var c = document.getElementById("rs");
+     c.appendChild(button);
  }
-    
-}
+ $(".ps").click(function(){
+			            $(this).hide()
+     	       var z = $(this).text();
+		  	            document.getElementById("rm2").innerHTML += z + " ";
+			            document.getElementById("gs").innerHTML = "<b>Formed Sentence</b>"+"<i>(After Selection)</i>";
+
+     })
+     document.getElementById("rm2").innerHTML = " "
+     document.getElementById("gs").innerHTML = " "
+     gf();
+     function gf(){
+    $("button").click(function(){
+		    document.getElementById("gf").innerHTML = null;
+ 			       var q = document.createElement("button")
+     		q.innerHTML = "Reform Sentence again"
+     		var d = document.getElementById("gf");
+     		d.appendChild(q)
+})
+} 
+document.getElementById("gf").innerHTML=null;
+ }
