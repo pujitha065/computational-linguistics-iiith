@@ -1,3 +1,4 @@
+
 .exp{
 	font-family: serif;
 }
@@ -6,7 +7,7 @@
 	margin-left: 85px;
 }
 #rm,#gs{
-	color: blue;
+	color: darkblue;
 	text-align: center;
 	display: block;
 	font-weight: bold;
@@ -16,6 +17,8 @@
 	text-align: center;
 	display: block;
 }
+
+
 button{
 	margin-left: 110px;
 	align :center;
@@ -27,12 +30,9 @@ button{
 	color:black;
 	font-family: "Arial", Helvetica;
 }
-#gf{
+span{
 	display: block;
 	text-align: center;
 }
-
-
-
 
 
