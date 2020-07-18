@@ -1,10 +1,9 @@
-
 .exp{
 	font-family: serif;
 }
 #e{
 	font-size: x-large;
-	margin-left: 85px;
+	margin-left: 75px;
 }
 #rm,#gs{
 	color: darkblue;
@@ -20,7 +19,7 @@
 
 
 button{
-	margin-left: 110px;
+	margin-left: 100px;
 	align :center;
 }
 #rm2{
@@ -34,5 +33,3 @@ span{
 	display: block;
 	text-align: center;
 }
-
-
