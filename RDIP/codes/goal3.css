@@ -33,3 +33,29 @@ span{
 	display: block;
 	text-align: center;
 }
+#s8{
+     
+     position: absolute;
+    width: 900px;
+    top: 56%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: green;
+    
+     
+}
+
+#s9{
+     
+    
+   position: absolute;
+    width: 900px;
+    top: 58%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: red;
+    font-style: italic;
+     
+}
