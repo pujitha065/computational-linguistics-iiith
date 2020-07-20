@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SERC Project-02</title>
+    <link rel="stylesheet" href="goal2m.css">  
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    
+
+</head>
+<body>
+    <h1 class="one">Experiment - 2 : Tokens and Types</h1>
+    <center>
+    <div class="form-group">
+    <select class="select" onchange="select()">
+    <option value="none" selected>----Select a corpus----</option>
+    <option value="corp1"  id="corpus1">Corpus 1</option>
+    <option value="corp2"  id="corpus2">Corpus 2</option>
+    <option value="corp3"  id="corpus3">Corpus 3</option>
+    </select></div><br><br>
+    <p id="a1"></p><br>
+    <p id="a2" style="visibility: hidden;">Enter the number of tokens and types for the above corpus:</p>
+    <table id="tab1" style="visibility: hidden;">
+    <tr>
+        <td>#tokens:</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td>#types:</td>
+        <td><input type="text"></td>
+    </tr>
+    </table><br>
+    <button id="but1" style="visibility: hidden;">Submit</button>
+    </center>
+    </section>
+    
+    
+   <script data-main ="goal2m.js"  src="../libraries/require.js"></script>
+   
+</body>
+</html> 
