@@ -33,29 +33,25 @@ span{
 	display: block;
 	text-align: center;
 }
-#s8{
-     
-     position: absolute;
-    width: 900px;
-    top: 56%;
-    left: 80%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-    color: green;
-    
-     
+#c{
+	margin-left: 0px;
 }
-
-#s9{
-     
-    
-   position: absolute;
-    width: 900px;
-    top: 58%;
-    left: 80%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-    color: red;
-    font-style: italic;
-     
+#gf{
+	margin:auto;
+}
+#am{
+	display: block;
+	font-size:xx-large;
+	color: darkgreen;
+}
+#w{
+	display: block;
+	text-align: center;
+	font-size: x-large;
+	color: darkred;
+}
+#hs{
+	display: block;
+	text-align: center;
+	margin:auto;
 }
