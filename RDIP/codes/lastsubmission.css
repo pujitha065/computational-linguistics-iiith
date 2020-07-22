@@ -1,0 +1,57 @@
+.exp{
+	font-family: serif;
+}
+#e{
+	font-size: x-large;
+	margin-left: 75px;
+}
+#rm,#gs{
+	color: darkblue;
+	text-align: center;
+	display: block;
+	font-weight: bold;
+}
+#rm1{
+	color: red;
+	text-align: center;
+	display: block;
+}
+
+
+button{
+	margin-left: 100px;
+	align :center;
+}
+#rm2{
+	display: block;
+	font-size: x-large;
+	font-weight: bold;
+	color:black;
+	font-family: "Arial", Helvetica;
+}
+span{
+	display: block;
+	text-align: center;
+}
+#c{
+	margin-left: 0px;
+}
+#gf{
+	margin:auto;
+}
+#am{
+	display: block;
+	font-size:xx-large;
+	color: darkgreen;
+}
+#w{
+	display: block;
+	text-align: center;
+	font-size: x-large;
+	color: darkred;
+}
+#hs{
+	display: block;
+	text-align: center;
+	margin:auto;
+}
